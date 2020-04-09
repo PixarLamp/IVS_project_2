@@ -14,7 +14,7 @@ namespace MathLibTests
         [TestMethod]
         public void subtest()
         {
-            Assert.AreEqual(10, subtaction(15, 5))
+            Assert.AreEqual(10, subtraction(15, 5))
         }
     }
 }
