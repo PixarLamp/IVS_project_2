@@ -61,7 +61,7 @@
             this.digit_0.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.digit_0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit_0.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.digit_0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit_0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit_0.Location = new System.Drawing.Point(72, 385);
             this.digit_0.Name = "digit_0";
@@ -72,6 +72,8 @@
             // 
             // decimal_point
             // 
+            this.decimal_point.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.decimal_point.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.decimal_point.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.decimal_point.ForeColor = System.Drawing.Color.MidnightBlue;
             this.decimal_point.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -80,10 +82,12 @@
             this.decimal_point.Size = new System.Drawing.Size(50, 50);
             this.decimal_point.TabIndex = 1;
             this.decimal_point.Text = ",";
-            this.decimal_point.UseVisualStyleBackColor = true;
+            this.decimal_point.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -92,14 +96,14 @@
             this.button3.Size = new System.Drawing.Size(50, 50);
             this.button3.TabIndex = 2;
             this.button3.Text = "+/_";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // digit1
             // 
             this.digit1.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit1.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit1.Location = new System.Drawing.Point(16, 329);
             this.digit1.Name = "digit1";
@@ -113,7 +117,7 @@
             this.digit2.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit2.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit2.Location = new System.Drawing.Point(72, 329);
             this.digit2.Name = "digit2";
@@ -127,7 +131,7 @@
             this.digit3.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit3.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit3.Location = new System.Drawing.Point(128, 329);
             this.digit3.Name = "digit3";
@@ -141,7 +145,7 @@
             this.digit4.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit4.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit4.Location = new System.Drawing.Point(16, 273);
             this.digit4.Name = "digit4";
@@ -155,7 +159,7 @@
             this.digit5.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit5.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit5.Location = new System.Drawing.Point(72, 273);
             this.digit5.Name = "digit5";
@@ -169,7 +173,7 @@
             this.digit6.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit6.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit6.Location = new System.Drawing.Point(128, 273);
             this.digit6.Name = "digit6";
@@ -183,7 +187,7 @@
             this.digit7.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit7.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit7.Location = new System.Drawing.Point(16, 217);
             this.digit7.Name = "digit7";
@@ -197,7 +201,7 @@
             this.digit8.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit8.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit8.Location = new System.Drawing.Point(72, 217);
             this.digit8.Name = "digit8";
@@ -211,7 +215,7 @@
             this.digit9.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.digit9.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
-            this.digit9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.digit9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit9.Location = new System.Drawing.Point(128, 217);
             this.digit9.Name = "digit9";
@@ -222,6 +226,8 @@
             // 
             // equals
             // 
+            this.equals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.equals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.equals.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.equals.ForeColor = System.Drawing.Color.MidnightBlue;
             this.equals.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -230,10 +236,12 @@
             this.equals.Size = new System.Drawing.Size(50, 106);
             this.equals.TabIndex = 12;
             this.equals.Text = "=";
-            this.equals.UseVisualStyleBackColor = true;
+            this.equals.UseVisualStyleBackColor = false;
             // 
             // addition
             // 
+            this.addition.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.addition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addition.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.addition.ForeColor = System.Drawing.Color.MidnightBlue;
             this.addition.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -242,10 +250,12 @@
             this.addition.Size = new System.Drawing.Size(50, 50);
             this.addition.TabIndex = 13;
             this.addition.Text = "+";
-            this.addition.UseVisualStyleBackColor = true;
+            this.addition.UseVisualStyleBackColor = false;
             // 
             // subtraction
             // 
+            this.subtraction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.subtraction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.subtraction.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.subtraction.ForeColor = System.Drawing.Color.MidnightBlue;
             this.subtraction.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -254,11 +264,13 @@
             this.subtraction.Size = new System.Drawing.Size(50, 50);
             this.subtraction.TabIndex = 14;
             this.subtraction.Text = "-";
-            this.subtraction.UseVisualStyleBackColor = true;
+            this.subtraction.UseVisualStyleBackColor = false;
             // 
             // power2
             // 
-            this.power2.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.power2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.power2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.power2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.power2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.power2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.power2.Location = new System.Drawing.Point(72, 161);
@@ -266,10 +278,12 @@
             this.power2.Size = new System.Drawing.Size(50, 50);
             this.power2.TabIndex = 16;
             this.power2.Text = "x²";
-            this.power2.UseVisualStyleBackColor = true;
+            this.power2.UseVisualStyleBackColor = false;
             // 
             // factorial
             // 
+            this.factorial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.factorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.factorial.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.factorial.ForeColor = System.Drawing.Color.MidnightBlue;
             this.factorial.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -278,10 +292,12 @@
             this.factorial.Size = new System.Drawing.Size(50, 50);
             this.factorial.TabIndex = 17;
             this.factorial.Text = "n!";
-            this.factorial.UseVisualStyleBackColor = true;
+            this.factorial.UseVisualStyleBackColor = false;
             // 
             // multiplication
             // 
+            this.multiplication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.multiplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.multiplication.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.multiplication.ForeColor = System.Drawing.Color.MidnightBlue;
             this.multiplication.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -290,11 +306,13 @@
             this.multiplication.Size = new System.Drawing.Size(50, 50);
             this.multiplication.TabIndex = 18;
             this.multiplication.Text = "x";
-            this.multiplication.UseVisualStyleBackColor = true;
+            this.multiplication.UseVisualStyleBackColor = false;
             // 
             // sqrt_n
             // 
-            this.sqrt_n.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sqrt_n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.sqrt_n.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sqrt_n.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.sqrt_n.ForeColor = System.Drawing.Color.MidnightBlue;
             this.sqrt_n.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sqrt_n.Location = new System.Drawing.Point(16, 105);
@@ -302,11 +320,13 @@
             this.sqrt_n.Size = new System.Drawing.Size(50, 50);
             this.sqrt_n.TabIndex = 19;
             this.sqrt_n.Text = "ⁿ√";
-            this.sqrt_n.UseVisualStyleBackColor = true;
+            this.sqrt_n.UseVisualStyleBackColor = false;
             // 
             // power_n
             // 
-            this.power_n.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.power_n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.power_n.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.power_n.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.power_n.ForeColor = System.Drawing.Color.MidnightBlue;
             this.power_n.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.power_n.Location = new System.Drawing.Point(72, 105);
@@ -314,10 +334,12 @@
             this.power_n.Size = new System.Drawing.Size(50, 50);
             this.power_n.TabIndex = 20;
             this.power_n.Text = "xⁿ";
-            this.power_n.UseVisualStyleBackColor = true;
+            this.power_n.UseVisualStyleBackColor = false;
             // 
             // absolute_value
             // 
+            this.absolute_value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.absolute_value.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.absolute_value.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.absolute_value.ForeColor = System.Drawing.Color.MidnightBlue;
             this.absolute_value.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -326,10 +348,12 @@
             this.absolute_value.Size = new System.Drawing.Size(50, 50);
             this.absolute_value.TabIndex = 21;
             this.absolute_value.Text = "|x|";
-            this.absolute_value.UseVisualStyleBackColor = true;
+            this.absolute_value.UseVisualStyleBackColor = false;
             // 
             // division
             // 
+            this.division.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.division.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.division.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.division.ForeColor = System.Drawing.Color.MidnightBlue;
             this.division.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -338,25 +362,29 @@
             this.division.Size = new System.Drawing.Size(50, 50);
             this.division.TabIndex = 22;
             this.division.Text = "÷";
-            this.division.UseVisualStyleBackColor = true;
+            this.division.UseVisualStyleBackColor = false;
             // 
             // equation
             // 
-            this.equation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.equation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
             this.equation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.equation.Cursor = System.Windows.Forms.Cursors.Default;
             this.equation.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.equation.ForeColor = System.Drawing.Color.MidnightBlue;
             this.equation.Location = new System.Drawing.Point(16, 16);
             this.equation.Margin = new System.Windows.Forms.Padding(0);
             this.equation.Multiline = true;
             this.equation.Name = "equation";
+            this.equation.ReadOnly = true;
             this.equation.Size = new System.Drawing.Size(218, 33);
             this.equation.TabIndex = 23;
             this.equation.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // sqrt2
             // 
-            this.sqrt2.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sqrt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.sqrt2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sqrt2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.sqrt2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.sqrt2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sqrt2.Location = new System.Drawing.Point(16, 161);
@@ -364,18 +392,20 @@
             this.sqrt2.Size = new System.Drawing.Size(50, 50);
             this.sqrt2.TabIndex = 15;
             this.sqrt2.Text = "²√";
-            this.sqrt2.UseVisualStyleBackColor = true;
+            this.sqrt2.UseVisualStyleBackColor = false;
             // 
             // result
             // 
-            this.result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(198)))), ((int)(((byte)(222)))));
+            this.result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
             this.result.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.result.Cursor = System.Windows.Forms.Cursors.Default;
             this.result.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.result.ForeColor = System.Drawing.Color.MidnightBlue;
             this.result.Location = new System.Drawing.Point(16, 49);
             this.result.Margin = new System.Windows.Forms.Padding(0);
             this.result.Multiline = true;
             this.result.Name = "result";
+            this.result.ReadOnly = true;
             this.result.Size = new System.Drawing.Size(218, 49);
             this.result.TabIndex = 24;
             this.result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -384,7 +414,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(159)))), ((int)(((byte)(220)))));
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(250, 450);
             this.Controls.Add(this.result);
             this.Controls.Add(this.equation);

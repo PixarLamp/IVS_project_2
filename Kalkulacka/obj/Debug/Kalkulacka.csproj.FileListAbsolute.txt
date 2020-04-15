@@ -1,0 +1,10 @@
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\bin\Debug\Kalkulacka.exe.config
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\bin\Debug\Kalkulacka.exe
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\bin\Debug\Kalkulacka.pdb
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.csprojAssemblyReference.cache
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.Form1.resources
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.Form2.resources
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.Properties.Resources.resources
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.csproj.GenerateResource.cache
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.exe
+C:\school\2_semester\IVS\Proj2\IVS_project_2\Kalkulacka\obj\Debug\Kalkulacka.pdb
