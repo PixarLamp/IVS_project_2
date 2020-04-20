@@ -60,7 +60,7 @@
             this.digit_0.BackColor = System.Drawing.Color.MidnightBlue;
             this.digit_0.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.digit_0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.digit_0.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.digit_0.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.digit_0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.digit_0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.digit_0.Location = new System.Drawing.Point(72, 385);
@@ -88,7 +88,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button3.Font = new System.Drawing.Font("Yu Gothic UI", 12.75F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button3.Location = new System.Drawing.Point(16, 385);
@@ -270,7 +270,7 @@
             // 
             this.power2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.power2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.power2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.power2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.power2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.power2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.power2.Location = new System.Drawing.Point(72, 161);
@@ -284,7 +284,7 @@
             // 
             this.factorial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.factorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.factorial.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.factorial.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold);
             this.factorial.ForeColor = System.Drawing.Color.MidnightBlue;
             this.factorial.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.factorial.Location = new System.Drawing.Point(128, 161);
@@ -298,7 +298,7 @@
             // 
             this.multiplication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.multiplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.multiplication.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.multiplication.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Bold);
             this.multiplication.ForeColor = System.Drawing.Color.MidnightBlue;
             this.multiplication.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.multiplication.Location = new System.Drawing.Point(184, 161);
@@ -312,7 +312,7 @@
             // 
             this.sqrt_n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.sqrt_n.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sqrt_n.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sqrt_n.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.sqrt_n.ForeColor = System.Drawing.Color.MidnightBlue;
             this.sqrt_n.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sqrt_n.Location = new System.Drawing.Point(16, 105);
@@ -326,7 +326,7 @@
             // 
             this.power_n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.power_n.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.power_n.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.power_n.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.power_n.ForeColor = System.Drawing.Color.MidnightBlue;
             this.power_n.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.power_n.Location = new System.Drawing.Point(72, 105);
@@ -340,7 +340,7 @@
             // 
             this.absolute_value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.absolute_value.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.absolute_value.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.absolute_value.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold);
             this.absolute_value.ForeColor = System.Drawing.Color.MidnightBlue;
             this.absolute_value.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.absolute_value.Location = new System.Drawing.Point(128, 105);
@@ -369,7 +369,7 @@
             this.equation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
             this.equation.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.equation.Cursor = System.Windows.Forms.Cursors.Default;
-            this.equation.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.equation.Font = new System.Drawing.Font("Yu Gothic UI", 15F);
             this.equation.ForeColor = System.Drawing.Color.MidnightBlue;
             this.equation.Location = new System.Drawing.Point(16, 16);
             this.equation.Margin = new System.Windows.Forms.Padding(0);
@@ -384,7 +384,7 @@
             // 
             this.sqrt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.sqrt2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sqrt2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sqrt2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.sqrt2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.sqrt2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sqrt2.Location = new System.Drawing.Point(16, 161);
@@ -399,7 +399,7 @@
             this.result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
             this.result.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.result.Cursor = System.Windows.Forms.Cursors.Default;
-            this.result.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.result.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Bold);
             this.result.ForeColor = System.Drawing.Color.MidnightBlue;
             this.result.Location = new System.Drawing.Point(16, 49);
             this.result.Margin = new System.Windows.Forms.Padding(0);
@@ -441,10 +441,10 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.decimal_point);
             this.Controls.Add(this.digit_0);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.ShowIcon = false;
-            this.Text = "Form1";
+            this.Text = "Kalkulačka";
             this.ResumeLayout(false);
             this.PerformLayout();
 
