@@ -44,15 +44,15 @@
             this.addition = new System.Windows.Forms.Button();
             this.subtraction = new System.Windows.Forms.Button();
             this.power2 = new System.Windows.Forms.Button();
-            this.factorial = new System.Windows.Forms.Button();
+            this.fact = new System.Windows.Forms.Button();
             this.multiplication = new System.Windows.Forms.Button();
             this.sqrt_n = new System.Windows.Forms.Button();
             this.power_n = new System.Windows.Forms.Button();
-            this.absolute_value = new System.Windows.Forms.Button();
+            this.log = new System.Windows.Forms.Button();
             this.division = new System.Windows.Forms.Button();
-            this.equation = new System.Windows.Forms.TextBox();
+            this.input = new System.Windows.Forms.TextBox();
             this.sqrt2 = new System.Windows.Forms.Button();
-            this.result = new System.Windows.Forms.TextBox();
+            this.output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // digit_0
@@ -69,6 +69,7 @@
             this.digit_0.TabIndex = 0;
             this.digit_0.Text = "0";
             this.digit_0.UseVisualStyleBackColor = false;
+            this.digit_0.Click += new System.EventHandler(this.button_click);
             // 
             // decimal_point
             // 
@@ -83,6 +84,7 @@
             this.decimal_point.TabIndex = 1;
             this.decimal_point.Text = ",";
             this.decimal_point.UseVisualStyleBackColor = false;
+            this.decimal_point.Click += new System.EventHandler(this.button_click);
             // 
             // button3
             // 
@@ -111,6 +113,7 @@
             this.digit1.TabIndex = 3;
             this.digit1.Text = "1";
             this.digit1.UseVisualStyleBackColor = false;
+            this.digit1.Click += new System.EventHandler(this.button_click);
             // 
             // digit2
             // 
@@ -125,6 +128,7 @@
             this.digit2.TabIndex = 4;
             this.digit2.Text = "2";
             this.digit2.UseVisualStyleBackColor = false;
+            this.digit2.Click += new System.EventHandler(this.button_click);
             // 
             // digit3
             // 
@@ -139,6 +143,7 @@
             this.digit3.TabIndex = 5;
             this.digit3.Text = "3";
             this.digit3.UseVisualStyleBackColor = false;
+            this.digit3.Click += new System.EventHandler(this.button_click);
             // 
             // digit4
             // 
@@ -153,6 +158,7 @@
             this.digit4.TabIndex = 6;
             this.digit4.Text = "4";
             this.digit4.UseVisualStyleBackColor = false;
+            this.digit4.Click += new System.EventHandler(this.button_click);
             // 
             // digit5
             // 
@@ -167,6 +173,7 @@
             this.digit5.TabIndex = 7;
             this.digit5.Text = "5";
             this.digit5.UseVisualStyleBackColor = false;
+            this.digit5.Click += new System.EventHandler(this.button_click);
             // 
             // digit6
             // 
@@ -181,6 +188,7 @@
             this.digit6.TabIndex = 8;
             this.digit6.Text = "6";
             this.digit6.UseVisualStyleBackColor = false;
+            this.digit6.Click += new System.EventHandler(this.button_click);
             // 
             // digit7
             // 
@@ -195,6 +203,7 @@
             this.digit7.TabIndex = 9;
             this.digit7.Text = "7";
             this.digit7.UseVisualStyleBackColor = false;
+            this.digit7.Click += new System.EventHandler(this.button_click);
             // 
             // digit8
             // 
@@ -209,6 +218,7 @@
             this.digit8.TabIndex = 10;
             this.digit8.Text = "8";
             this.digit8.UseVisualStyleBackColor = false;
+            this.digit8.Click += new System.EventHandler(this.button_click);
             // 
             // digit9
             // 
@@ -223,6 +233,7 @@
             this.digit9.TabIndex = 11;
             this.digit9.Text = "9";
             this.digit9.UseVisualStyleBackColor = false;
+            this.digit9.Click += new System.EventHandler(this.button_click);
             // 
             // equals
             // 
@@ -237,6 +248,7 @@
             this.equals.TabIndex = 12;
             this.equals.Text = "=";
             this.equals.UseVisualStyleBackColor = false;
+            this.equals.Click += new System.EventHandler(this.result_click);
             // 
             // addition
             // 
@@ -251,6 +263,7 @@
             this.addition.TabIndex = 13;
             this.addition.Text = "+";
             this.addition.UseVisualStyleBackColor = false;
+            this.addition.Click += new System.EventHandler(this.operation_click);
             // 
             // subtraction
             // 
@@ -265,6 +278,7 @@
             this.subtraction.TabIndex = 14;
             this.subtraction.Text = "-";
             this.subtraction.UseVisualStyleBackColor = false;
+            this.subtraction.Click += new System.EventHandler(this.operation_click);
             // 
             // power2
             // 
@@ -279,20 +293,22 @@
             this.power2.TabIndex = 16;
             this.power2.Text = "x²";
             this.power2.UseVisualStyleBackColor = false;
+            this.power2.Click += new System.EventHandler(this.power2_click);
             // 
-            // factorial
+            // fact
             // 
-            this.factorial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
-            this.factorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.factorial.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold);
-            this.factorial.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.factorial.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.factorial.Location = new System.Drawing.Point(128, 161);
-            this.factorial.Name = "factorial";
-            this.factorial.Size = new System.Drawing.Size(50, 50);
-            this.factorial.TabIndex = 17;
-            this.factorial.Text = "n!";
-            this.factorial.UseVisualStyleBackColor = false;
+            this.fact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.fact.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fact.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold);
+            this.fact.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.fact.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.fact.Location = new System.Drawing.Point(128, 161);
+            this.fact.Name = "fact";
+            this.fact.Size = new System.Drawing.Size(50, 50);
+            this.fact.TabIndex = 17;
+            this.fact.Text = "n!";
+            this.fact.UseVisualStyleBackColor = false;
+            this.fact.Click += new System.EventHandler(this.fact_click);
             // 
             // multiplication
             // 
@@ -307,6 +323,7 @@
             this.multiplication.TabIndex = 18;
             this.multiplication.Text = "x";
             this.multiplication.UseVisualStyleBackColor = false;
+            this.multiplication.Click += new System.EventHandler(this.operation_click);
             // 
             // sqrt_n
             // 
@@ -321,6 +338,7 @@
             this.sqrt_n.TabIndex = 19;
             this.sqrt_n.Text = "ⁿ√";
             this.sqrt_n.UseVisualStyleBackColor = false;
+            this.sqrt_n.Click += new System.EventHandler(this.sqrt_click);
             // 
             // power_n
             // 
@@ -335,20 +353,22 @@
             this.power_n.TabIndex = 20;
             this.power_n.Text = "xⁿ";
             this.power_n.UseVisualStyleBackColor = false;
+            this.power_n.Click += new System.EventHandler(this.operation_click);
             // 
-            // absolute_value
+            // log
             // 
-            this.absolute_value.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
-            this.absolute_value.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.absolute_value.Font = new System.Drawing.Font("Yu Gothic UI", 15F, System.Drawing.FontStyle.Bold);
-            this.absolute_value.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.absolute_value.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.absolute_value.Location = new System.Drawing.Point(128, 105);
-            this.absolute_value.Name = "absolute_value";
-            this.absolute_value.Size = new System.Drawing.Size(50, 50);
-            this.absolute_value.TabIndex = 21;
-            this.absolute_value.Text = "|x|";
-            this.absolute_value.UseVisualStyleBackColor = false;
+            this.log.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
+            this.log.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.log.Font = new System.Drawing.Font("Yu Gothic UI", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.log.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.log.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.log.Location = new System.Drawing.Point(128, 105);
+            this.log.Name = "log";
+            this.log.Size = new System.Drawing.Size(50, 50);
+            this.log.TabIndex = 21;
+            this.log.Text = "log";
+            this.log.UseVisualStyleBackColor = false;
+            this.log.Click += new System.EventHandler(this.operation_click);
             // 
             // division
             // 
@@ -363,22 +383,24 @@
             this.division.TabIndex = 22;
             this.division.Text = "÷";
             this.division.UseVisualStyleBackColor = false;
+            this.division.Click += new System.EventHandler(this.operation_click);
             // 
-            // equation
+            // input
             // 
-            this.equation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
-            this.equation.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.equation.Cursor = System.Windows.Forms.Cursors.Default;
-            this.equation.Font = new System.Drawing.Font("Yu Gothic UI", 15F);
-            this.equation.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.equation.Location = new System.Drawing.Point(16, 16);
-            this.equation.Margin = new System.Windows.Forms.Padding(0);
-            this.equation.Multiline = true;
-            this.equation.Name = "equation";
-            this.equation.ReadOnly = true;
-            this.equation.Size = new System.Drawing.Size(218, 33);
-            this.equation.TabIndex = 23;
-            this.equation.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.input.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
+            this.input.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.input.Cursor = System.Windows.Forms.Cursors.Default;
+            this.input.Font = new System.Drawing.Font("Yu Gothic UI", 15F);
+            this.input.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.input.Location = new System.Drawing.Point(16, 16);
+            this.input.Margin = new System.Windows.Forms.Padding(0);
+            this.input.MaxLength = 2;
+            this.input.Multiline = true;
+            this.input.Name = "input";
+            this.input.ReadOnly = true;
+            this.input.Size = new System.Drawing.Size(218, 33);
+            this.input.TabIndex = 23;
+            this.input.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // sqrt2
             // 
@@ -393,22 +415,23 @@
             this.sqrt2.TabIndex = 15;
             this.sqrt2.Text = "²√";
             this.sqrt2.UseVisualStyleBackColor = false;
+            this.sqrt2.Click += new System.EventHandler(this.sqrt_click);
             // 
-            // result
+            // output
             // 
-            this.result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
-            this.result.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.result.Cursor = System.Windows.Forms.Cursors.Default;
-            this.result.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Bold);
-            this.result.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.result.Location = new System.Drawing.Point(16, 49);
-            this.result.Margin = new System.Windows.Forms.Padding(0);
-            this.result.Multiline = true;
-            this.result.Name = "result";
-            this.result.ReadOnly = true;
-            this.result.Size = new System.Drawing.Size(218, 49);
-            this.result.TabIndex = 24;
-            this.result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.output.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
+            this.output.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.output.Cursor = System.Windows.Forms.Cursors.Default;
+            this.output.Font = new System.Drawing.Font("Yu Gothic UI", 30F, System.Drawing.FontStyle.Bold);
+            this.output.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.output.Location = new System.Drawing.Point(16, 49);
+            this.output.Margin = new System.Windows.Forms.Padding(0);
+            this.output.Multiline = true;
+            this.output.Name = "output";
+            this.output.ReadOnly = true;
+            this.output.Size = new System.Drawing.Size(218, 49);
+            this.output.TabIndex = 24;
+            this.output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
@@ -416,14 +439,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(250, 450);
-            this.Controls.Add(this.result);
-            this.Controls.Add(this.equation);
+            this.Controls.Add(this.output);
+            this.Controls.Add(this.input);
             this.Controls.Add(this.division);
-            this.Controls.Add(this.absolute_value);
+            this.Controls.Add(this.log);
             this.Controls.Add(this.power_n);
             this.Controls.Add(this.sqrt_n);
             this.Controls.Add(this.multiplication);
-            this.Controls.Add(this.factorial);
+            this.Controls.Add(this.fact);
             this.Controls.Add(this.power2);
             this.Controls.Add(this.sqrt2);
             this.Controls.Add(this.subtraction);
@@ -442,6 +465,7 @@
             this.Controls.Add(this.decimal_point);
             this.Controls.Add(this.digit_0);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Kalkulačka";
@@ -468,15 +492,15 @@
         private System.Windows.Forms.Button addition;
         private System.Windows.Forms.Button subtraction;
         private System.Windows.Forms.Button power2;
-        private System.Windows.Forms.Button factorial;
+        private System.Windows.Forms.Button fact;
         private System.Windows.Forms.Button multiplication;
         private System.Windows.Forms.Button sqrt_n;
         private System.Windows.Forms.Button power_n;
-        private System.Windows.Forms.Button absolute_value;
+        private System.Windows.Forms.Button log;
         private System.Windows.Forms.Button division;
-        private System.Windows.Forms.TextBox equation;
+        private System.Windows.Forms.TextBox input;
         private System.Windows.Forms.Button sqrt2;
-        private System.Windows.Forms.TextBox result;
+        private System.Windows.Forms.TextBox output;
     }
 }
 
