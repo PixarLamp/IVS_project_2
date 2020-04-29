@@ -84,12 +84,12 @@ C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\Kalkulacka.exe
-C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\Kalkulacka.pdb
-C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\Kalkulacka.exe.config
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\obj\Debug\netcoreapp3.1\MathLibTests.csprojAssemblyReference.cache
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\obj\Debug\netcoreapp3.1\MathLibTests.AssemblyInfoInputs.cache
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\obj\Debug\netcoreapp3.1\MathLibTests.AssemblyInfo.cs
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\obj\Debug\netcoreapp3.1\MathLibTests.csproj.CopyComplete
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\obj\Debug\netcoreapp3.1\MathLibTests.dll
 C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\obj\Debug\netcoreapp3.1\MathLibTests.pdb
+C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\src.exe
+C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\src.pdb
+C:\school\2_semester\IVS\Proj2\IVS_project_2\MathLibTests\bin\Debug\netcoreapp3.1\src.exe.config

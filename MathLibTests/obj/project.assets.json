@@ -6876,8 +6876,8 @@
     },
     "Kalkulacka/1.0.0": {
       "type": "project",
-      "path": "../Kalkulacka/Kalkulacka.csproj",
-      "msbuildProject": "../Kalkulacka/Kalkulacka.csproj"
+      "path": "../src/Kalkulacka.csproj",
+      "msbuildProject": "../src/Kalkulacka.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6917,6 +6917,9 @@
           "projectReferences": {
             "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj": {
               "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj"
+            },
+            "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj": {
+              "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj"
             }
           }
         }

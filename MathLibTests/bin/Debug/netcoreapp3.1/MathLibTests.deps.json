@@ -1327,7 +1327,7 @@
       },
       "Kalkulacka/1.0.0": {
         "runtime": {
-          "Kalkulacka.exe": {}
+          "src.exe": {}
         }
       }
     }

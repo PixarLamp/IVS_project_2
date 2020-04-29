@@ -38,7 +38,7 @@ namespace MathLibTests
         {
             Assert.AreEqual(-3, mathLab.div(-15, 5));
             Assert.AreEqual(100, mathLab.div(5.0, 0.05));
-            Assert.ThrowsException<Exception>(() => mathLab.div(10, 0));
+            Assert.ThrowsException<DivideByZeroException>(() => mathLab.div(10, 0));
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace MathLibTests
         {
             Assert.AreEqual(120, mathLab.fac(5));
             Assert.AreEqual(1, mathLab.fac(0));
-            Assert.ThrowsException<Exception>(() => mathLab.fac(-5));
+            Assert.ThrowsException<NotFiniteNumberException>(() => mathLab.fac(-5));
         }
 
         [TestMethod]
@@ -72,8 +72,8 @@ namespace MathLibTests
         {
             Assert.AreEqual(4, mathLab.log(2, 100));
             Assert.AreEqual(0, mathLab.log(0, 100));
-            Assert.ThrowsException<Exception>(() => mathLab.log(2, -5));
-            Assert.ThrowsException<Exception>(() => mathLab.log(2, 0));
+            Assert.ThrowsException<NotFiniteNumberException>(() => mathLab.log(2, -5));
+            Assert.ThrowsException<NotFiniteNumberException>(() => mathLab.log(2, 0));
         }
     }
 }

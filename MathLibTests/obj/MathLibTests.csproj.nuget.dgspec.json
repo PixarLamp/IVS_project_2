@@ -40,6 +40,9 @@
             "projectReferences": {
               "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj": {
                 "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj"
+              },
+              "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj": {
+                "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj"
               }
             }
           }
@@ -87,6 +90,17 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj",
+        "projectName": "Kalkulacka",
+        "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\src\\Kalkulacka.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

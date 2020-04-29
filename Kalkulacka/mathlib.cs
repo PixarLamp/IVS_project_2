@@ -55,11 +55,20 @@ namespace library{
         }
 
         public double root(double A, double B){
+            if (B == 0)
+            {
+                throw new DivideByZeroException();
+            }
             return Math.Pow(B, 1.0 / A);
         }
 
         public double log(double A, double B){
-            return A * Math.Log10(B);
+            double res = A * Math.Log10(B);
+            if (double.IsInfinity(res) || double.IsNaN(res))
+            {
+                throw new NotFiniteNumberException();
+            }
+            return res;
         }
 
         public double neg(double A){

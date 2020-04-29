@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kalkulacka\Kalkulacka.csproj" />
+    <ProjectReference Include="..\src\Kalkulacka.csproj" />
   </ItemGroup>
 
 </Project>
