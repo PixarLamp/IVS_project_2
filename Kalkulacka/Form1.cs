@@ -243,5 +243,10 @@ namespace Kalkulacka
             result = true;
             //input.Text += " =";
         }
+
+        private void CE_click(object sender, EventArgs e)
+        {
+            input.Clear();
+        }
     }
 }

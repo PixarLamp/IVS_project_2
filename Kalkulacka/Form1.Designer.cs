@@ -78,7 +78,7 @@
             this.decimal_point.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.decimal_point.ForeColor = System.Drawing.Color.MidnightBlue;
             this.decimal_point.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.decimal_point.Location = new System.Drawing.Point(128, 385);
+            this.decimal_point.Location = new System.Drawing.Point(16, 385);
             this.decimal_point.Name = "decimal_point";
             this.decimal_point.Size = new System.Drawing.Size(50, 50);
             this.decimal_point.TabIndex = 1;
@@ -88,17 +88,17 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Yu Gothic UI", 12.75F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(202)))), ((int)(((byte)(241)))));
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(16, 385);
+            this.button3.Location = new System.Drawing.Point(184, 106);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 50);
             this.button3.TabIndex = 2;
-            this.button3.Text = "+/_";
+            this.button3.Text = "CE";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.CE_click);
             // 
             // digit1
             // 
@@ -242,9 +242,9 @@
             this.equals.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.equals.ForeColor = System.Drawing.Color.MidnightBlue;
             this.equals.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.equals.Location = new System.Drawing.Point(184, 329);
+            this.equals.Location = new System.Drawing.Point(128, 385);
             this.equals.Name = "equals";
-            this.equals.Size = new System.Drawing.Size(50, 106);
+            this.equals.Size = new System.Drawing.Size(106, 50);
             this.equals.TabIndex = 12;
             this.equals.Text = "=";
             this.equals.UseVisualStyleBackColor = false;
@@ -257,7 +257,7 @@
             this.addition.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.addition.ForeColor = System.Drawing.Color.MidnightBlue;
             this.addition.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.addition.Location = new System.Drawing.Point(184, 273);
+            this.addition.Location = new System.Drawing.Point(184, 329);
             this.addition.Name = "addition";
             this.addition.Size = new System.Drawing.Size(50, 50);
             this.addition.TabIndex = 13;
@@ -272,7 +272,7 @@
             this.subtraction.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.subtraction.ForeColor = System.Drawing.Color.MidnightBlue;
             this.subtraction.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.subtraction.Location = new System.Drawing.Point(184, 217);
+            this.subtraction.Location = new System.Drawing.Point(184, 273);
             this.subtraction.Name = "subtraction";
             this.subtraction.Size = new System.Drawing.Size(50, 50);
             this.subtraction.TabIndex = 14;
@@ -317,7 +317,7 @@
             this.multiplication.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Bold);
             this.multiplication.ForeColor = System.Drawing.Color.MidnightBlue;
             this.multiplication.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.multiplication.Location = new System.Drawing.Point(184, 161);
+            this.multiplication.Location = new System.Drawing.Point(184, 217);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(50, 50);
             this.multiplication.TabIndex = 18;
@@ -377,7 +377,7 @@
             this.division.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold);
             this.division.ForeColor = System.Drawing.Color.MidnightBlue;
             this.division.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.division.Location = new System.Drawing.Point(184, 105);
+            this.division.Location = new System.Drawing.Point(184, 161);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(50, 50);
             this.division.TabIndex = 22;

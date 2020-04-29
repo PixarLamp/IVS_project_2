@@ -75,13 +75,5 @@ namespace MathLibTests
             Assert.ThrowsException<Exception>(() => mathLab.log(2, -5));
             Assert.ThrowsException<Exception>(() => mathLab.log(2, 0));
         }
-
-        [TestMethod]
-        public void Negtest()
-        {
-            Assert.AreEqual(0, mathLab.neg(0));
-            Assert.AreEqual(5, mathLab.neg(-5));
-            Assert.AreEqual(-5, mathLab.neg(5));
-        }
     }
 }

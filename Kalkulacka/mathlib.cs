@@ -53,7 +53,7 @@ namespace library{
         }
 
         public double log(double A, double B){
-            return A * Math.Log(B);
+            return A * Math.Log10(B);
         }
 
         public double neg(double A){
