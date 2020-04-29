@@ -4,6 +4,17 @@
     "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\MathLibTests\\MathLibTests.csproj": {}
   },
   "projects": {
+    "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj",
+        "projectName": "Kalkulacka",
+        "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\MathLibTests\\MathLibTests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +37,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj": {
+                "projectPath": "C:\\school\\2_semester\\IVS\\Proj2\\IVS_project_2\\Kalkulacka\\Kalkulacka.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
