@@ -247,6 +247,17 @@ namespace Kalkulacka
         private void CE_click(object sender, EventArgs e)
         {
             input.Clear();
+
+            decimalpoint = false;
+            digit_only_input = false;
+            valueinput = false;
+            operation = false;
+            power = false;
+            sqrt = false;
+            factorial = false;
+            result = false;
+
+            screen = "";
         }
     }
 }

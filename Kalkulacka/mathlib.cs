@@ -25,6 +25,7 @@ namespace library{
 
         public double fac(double A){
             if(A < 0){
+                //throw new Exception("Negative factorial not possible");
                 return 0;
             }
 
