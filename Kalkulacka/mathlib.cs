@@ -52,8 +52,8 @@ namespace library{
             return Math.Pow(A, 1.0 / B);
         }
 
-        public double log(double A){
-            return Math.Log(A);
+        public double log(double A, double B){
+            return A * Math.Log(B);
         }
 
         public double neg(double A){

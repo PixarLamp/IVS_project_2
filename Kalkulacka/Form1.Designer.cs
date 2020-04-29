@@ -321,7 +321,7 @@
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(50, 50);
             this.multiplication.TabIndex = 18;
-            this.multiplication.Text = "x";
+            this.multiplication.Text = "*";
             this.multiplication.UseVisualStyleBackColor = false;
             this.multiplication.Click += new System.EventHandler(this.operation_click);
             // 
@@ -381,7 +381,7 @@
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(50, 50);
             this.division.TabIndex = 22;
-            this.division.Text = "÷";
+            this.division.Text = "/";
             this.division.UseVisualStyleBackColor = false;
             this.division.Click += new System.EventHandler(this.operation_click);
             // 
