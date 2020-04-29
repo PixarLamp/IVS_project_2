@@ -25,19 +25,19 @@ namespace calcB{
 
             double leftSide = 0;
             double rightSide = 0;
-            double result = -340;
+            double result = -123456789.54321;
             int indexer = 0;
 
             string ms;
             string ls;
             string rs;
 
+
             if(len > 0){
-                Console.WriteLine("");
 
                 for(i = 0; i < len; i++){
                     
-                    Console.WriteLine(parts[i]);
+                    //Console.WriteLine(parts[i]);
                     
                     if(parts[i] == "+" ^ parts[i] == "-"
                     ^ parts[i] == "*" ^ parts[i] == "/"){
@@ -46,28 +46,55 @@ namespace calcB{
                         type[i] = "num";
 
                         ms = parts[i];
-                        indexer = ms.IndexOf("-/");
+                        indexer = ms.IndexOf("-/"); // err
                         if(indexer > -1){
                             ls = ms.Substring(0,indexer);
                             rs = ms.Substring(indexer+2);
+                            
+                            if(indexer == 0){
+                                ls = "2";
+                            }
+                            if(ms.Length == 3){
+                                return result;
+                            }
+                            //Console.WriteLine(mathLab.root(double.Parse(ls),double.Parse(rs)));
+                            parts[i] = mathLab.root(double.Parse(ls),double.Parse(rs)).ToString();
 
                         }else{
                             indexer = parts[i].IndexOf("^");
                             if(indexer > -1){
                                 ls = ms.Substring(0,indexer);
                                 rs = ms.Substring(indexer+1);
+                                
+                                if(indexer+1 == ms.Length){
+                                    return result;
+                                }
+
+                                parts[i] = mathLab.exp(double.Parse(ls),double.Parse(rs)).ToString();
 
                             }else{
                                 indexer = parts[i].IndexOf("!");
                                 if(indexer > -1){
                                     ls = ms.Substring(0,indexer);
-                                    rs = ms.Substring(indexer+1);
+                                    Console.WriteLine("ls");
+                                    Console.WriteLine(ls);
+                                    if(double.Parse(ls) % 1 != 0){
+                                        return double.Parse("-123456789,54321");
+                                    }
+                                    parts[i] = mathLab.fac(double.Parse(ls)).ToString();
 
                                 }else{
                                     indexer = parts[i].IndexOf("log");
                                     if(indexer > -1){
                                         ls = ms.Substring(0,indexer);
                                         rs = ms.Substring(indexer+3);
+                                        if(indexer == 0){
+                                            ls = "1";
+                                        }
+                                        if(ms.Length == 3){
+                                            return result;
+                                        }
+                                        parts[i] = mathLab.log(double.Parse(ls),double.Parse(rs)).ToString();
                                     }
                                 }
                             }
@@ -75,13 +102,12 @@ namespace calcB{
                         
                     }
                 }
-                Console.WriteLine("");
+                //Console.WriteLine("");
 
                 i = 0;
 
-
                 while(i < len){
-                    Console.WriteLine(parts[i]);
+                    //Console.WriteLine(parts[i]);
                     if(i > 0){
                         if(type[i] == "sign"){
                             if(parts[i] == "+" ^ parts[i] == "-" ){
@@ -156,11 +182,15 @@ namespace calcB{
 
                                     stackRes.Push(result);
                                 }
+
+                                if(result == -123456789.98765){
+                                    return result;
+                                }
                             }
                         }
                     }else{
                         if(len == 1){ // pridat fac atd.
-                            Console.WriteLine("len == 1");
+                            //Console.WriteLine("len == 1");
                             return double.Parse(parts[0]);
                         }
                     }
@@ -201,7 +231,7 @@ namespace calcB{
                 Console.WriteLine(result);
                 return result;
             }
-            return 9;
+            return result;
         }
     } 
 }

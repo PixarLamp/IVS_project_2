@@ -22,7 +22,7 @@ namespace Kalkulacka
         public bool factorial;
         public bool result = false;
 
-        public string screen;
+        public string screen = "";
         public string[] parts;
 
         public Form1()
@@ -58,7 +58,7 @@ namespace Kalkulacka
                     else
                     {
                         input.Text += ",";
-                        screen += ".";
+                        screen += ",";
                     }
                     decimalpoint = true;
                     digit_only_input = true;
@@ -236,11 +236,32 @@ namespace Kalkulacka
 
         private void result_click(object sender, EventArgs e)
         {
-            input.Text = screen;
-            string [] splitter = screen.Split(' ');
-            calcB.calcmain mycalc = new calcB.calcmain();
-            input.Text = mycalc.getResult(splitter).ToString();
-            result = true;
+            if(screen != ""){
+                input.Text = screen;
+
+                int indexer = screen.IndexOf(" ");
+                if(indexer == 0){
+                    input.Text = "Syntax Error!";
+                    result = true;
+                    return;
+
+                }
+
+                string [] splitter = screen.Split(' ');
+                calcB.calcmain mycalc = new calcB.calcmain();
+                input.Text = mycalc.getResult(splitter).ToString();
+
+                if(input.Text == "-123456789,54321"){
+                    input.Text = "Syntax Error!";
+                }
+                else{
+                    if(input.Text == "-123456789,98765"){
+                        input.Text = "Infinity";
+                    }
+                }
+                result = true;
+            }
+            
             //input.Text += " =";
         }
 

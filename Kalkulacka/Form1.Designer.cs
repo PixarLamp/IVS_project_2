@@ -503,4 +503,3 @@
         private System.Windows.Forms.TextBox output;
     }
 }
-
