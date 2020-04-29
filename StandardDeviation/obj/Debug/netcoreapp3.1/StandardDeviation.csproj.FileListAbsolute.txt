@@ -1,0 +1,4 @@
+C:\Users\Peko\Documents\GitHub\IVS_project_2-new\StandardDeviation\obj\Debug\netcoreapp3.1\StandardDeviation.csprojAssemblyReference.cache
+C:\Users\Peko\Documents\GitHub\IVS_project_2-new\StandardDeviation\obj\Debug\netcoreapp3.1\StandardDeviation.csproj.CoreCompileInputs.cache
+C:\Users\Peko\Documents\GitHub\IVS_project_2-new\StandardDeviation\obj\Debug\netcoreapp3.1\StandardDeviation.AssemblyInfoInputs.cache
+C:\Users\Peko\Documents\GitHub\IVS_project_2-new\StandardDeviation\obj\Debug\netcoreapp3.1\StandardDeviation.AssemblyInfo.cs

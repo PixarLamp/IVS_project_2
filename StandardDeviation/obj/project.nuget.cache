@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dBr2DmmASpshf2hKlMJviDE5484ujQpaMtvikYFdMVnYFQA/HUT4cT7OCkcWUSD53cBYP/E2KGWhHGdFNgx1Vw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Peko\\Documents\\GitHub\\IVS_project_2-new\\StandardDeviation\\StandardDeviation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peko\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Peko\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
