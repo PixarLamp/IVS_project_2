@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "standarddeviation/1.0.0": {
+        "dependencies": {
+          "Kalkulacka": "1.0.0"
+        },
+        "runtime": {
+          "StandardDeviation.dll": {}
+        }
+      },
+      "kalkulacka/1.0.0": {
+        "runtime": {
+          "src.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "standarddeviation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "kalkulacka/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

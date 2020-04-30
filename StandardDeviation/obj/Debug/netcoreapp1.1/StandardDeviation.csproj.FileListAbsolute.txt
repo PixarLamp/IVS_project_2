@@ -1,0 +1,3 @@
+C:\Users\Lubo\Desktop\kalkulacka\IVS_project_2-master\StandardDeviation\obj\Debug\netcoreapp1.1\StandardDeviation.csprojAssemblyReference.cache
+C:\Users\Lubo\Desktop\kalkulacka\IVS_project_2-master\StandardDeviation\obj\Debug\netcoreapp1.1\StandardDeviation.AssemblyInfoInputs.cache
+C:\Users\Lubo\Desktop\kalkulacka\IVS_project_2-master\StandardDeviation\obj\Debug\netcoreapp1.1\StandardDeviation.AssemblyInfo.cs
