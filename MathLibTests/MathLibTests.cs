@@ -24,7 +24,7 @@ namespace MathLibTests
             Assert.AreEqual(10, mathLab.add(-10, 20));
         }
         /**
-         * @brief Tests substitution function
+         * @brief Tests subtraction function
          */
         [TestMethod]
         public void Subtest()
