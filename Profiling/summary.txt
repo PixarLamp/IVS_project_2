@@ -1,0 +1,2 @@
+Môžeme vidieť, že najčastejšie volanými funkciami sú práve add a exp. Ich počet volaní závisí od počtu čísel.
+Funkcia add je volaná 2-krát viac a exp je rovnako ako je počet čísel. Kvôli tomu by bolo najlepšie optimalizovať funckciu add.
