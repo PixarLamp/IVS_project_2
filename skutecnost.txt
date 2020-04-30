@@ -1,0 +1,9 @@
+IVS projekt 2 - SKUTOČNOSŤ
+
+Podľa plánu
+* naozaj sme ako komunikačný kanál používali zväčša Discord, čo sa ukázalo ako efektívny spôsob komunikácie
+* na vytvorenie kalkulačky sme využili C#, čo bol jazyk vybraný pri plánovaní projektu
+* z väčšej miery sa nám podarilo dodržať prerozdelenie jednotlivých úloh medzi členmi týmu
+
+Mimo plánu  
+* nepodarilo sa nám držať plánu čo sa týka dátumov a tvorenia vecí načas
